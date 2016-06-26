@@ -5,7 +5,7 @@ import time
 import os
 
 rs485 = minimalmodbus.Instrument('/dev/ttyUSB0', 1)
-rs485.serial.baudrate = 9600
+rs485.serial.baudrate = 2400
 rs485.serial.bytesize = 8
 rs485.serial.parity = minimalmodbus.serial.PARITY_NONE
 rs485.serial.stopbits = 1
